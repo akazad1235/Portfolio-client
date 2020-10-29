@@ -1,0 +1,14 @@
+.navbar-bg{
+    background-color:#343A40;
+
+}
+.nav-text{
+    color:#ffff;
+    
+}
+.resume-button:hover{
+    color:white
+}
+.nav-item{
+    font-size: 100px;
+}
