@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom';
 
 const NavMenu = () => {
     return (
-        <div className="navbar-bg">
+        <div className="navbar-bg fixed-top">
             <Container>
-                <Navbar  expand="lg" >
+                <Navbar  expand="lg" className="">
                     <Navbar.Brand href="#home" className="text-white">React-Bootstrap</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >

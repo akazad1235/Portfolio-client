@@ -1,0 +1,12 @@
+.card{
+    border:1px solid gray  !important;
+    
+    border-radius: 10px !important;
+    background-color: gray !important;
+    
+  
+}
+.card-footer{
+    border:none !important; 
+    border-top: none;
+}
