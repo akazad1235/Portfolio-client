@@ -1,0 +1,14 @@
+.about-bg{
+    background-image:linear-gradient(176deg, transparent 12%, #343A40 13%);
+    height: 700px;
+    
+}
+.social{
+    font-size: 30px;
+    color: #fff;
+}
+.my-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

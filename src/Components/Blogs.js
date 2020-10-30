@@ -5,7 +5,7 @@ const Blogs = () => {
     return (
         <>
 
-            <Container>
+            <Container id="blog">
             <h2 className="text-center my-5">Blogs</h2>
                 <Row>
                 <Col xl={4} lg={4} md={4}>

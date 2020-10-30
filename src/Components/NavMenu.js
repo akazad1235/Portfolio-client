@@ -12,12 +12,12 @@ const NavMenu = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
                         <Nav className="ml-auto m-0 p-0">
-                            <NavLink  to="/home" className="text-white mx-2 d-inline p-2">Home</NavLink>
-                            <NavLink to="/home" className="text-white mx-2 d-inline p-2">Project</NavLink>
-                            <NavLink to="/home" className="text-white mx-2 d-inline p-2">Blog</NavLink>
-                            <NavLink  to="/home" className="text-white mx-2 d-inline p-2">About</NavLink>
-                            <NavLink  to="/home" className="text-white mx-2 d-inline p-2">Contact</NavLink>
-                            <NavLink  to="/home" className="text-white btn-outline-danger border rounded mx-2 resume-button d-inline px-3 p-1">Resume</NavLink>
+                            <Nav.Link  href="#home" className="text-white mx-2 d-inline p-2">Home</Nav.Link>
+                            <Nav.Link  href="#project" className="text-white mx-2 d-inline p-2">Project</Nav.Link>
+                            <Nav.Link  href="#blog" className="text-white mx-2 d-inline p-2">Blog</Nav.Link>
+                            <Nav.Link  href="#about" className="text-white mx-2 d-inline p-2">About</Nav.Link>
+                            <Nav.Link  href="#contact" className="text-white mx-2 d-inline p-2">Contact</Nav.Link>
+                            <NavLink   to="/home" className="text-white btn-outline-danger border rounded mx-2 resume-button d-inline px-3 p-1">Resume</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

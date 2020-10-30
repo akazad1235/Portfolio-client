@@ -4,7 +4,7 @@ import {Button, Card, Col, Container, Row } from 'react-bootstrap';
 const Projects = () => {
     return (
         <>
-            <Container>
+            <Container id="project">
                 <h2 className="text-center my-5">Projects</h2>
                 <Row>
                     <Col xl={4} lg={4} md={4}>
