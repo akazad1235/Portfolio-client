@@ -2,11 +2,30 @@
     border:1px solid gray  !important;
     
     border-radius: 10px !important;
-    background-color: gray !important;
+    background-color: #343A40 !important;
+    color:white
     
   
+}
+.card p{
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgba(248, 242, 242, 0.842)
+}
+.card img{
+    height: 190px;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
 }
 .card-footer{
     border:none !important; 
     border-top: none;
+    
+}
+.project-container{
+    margin-top: 200px;
 }

@@ -1,15 +1,24 @@
 import React from 'react';
 import {Button, Card, Col, Container, Row } from 'react-bootstrap';
+import NavMenu from './NavMenu';
+import project1 from '../Assets/images/project1.PNG';
+import project2 from '../Assets/images/project2.PNG';
+import project3 from '../Assets/images/project3.PNG';
+import project4 from '../Assets/images/project4.PNG';
 
 const Projects = () => {
     return (
-        <>
-            <Container id="project">
-                <h2 className="text-center my-5">Projects</h2>
+       <> 
+       <NavMenu/>
+        <div className="mt-5 animate__animated animate__fadeInLeft animate__slow overflow-hidden">
+            
+            <Container className="mt-5">
+                
+                <h2 className="text-center my-5 font-weight-bold font">Projects</h2>
                 <Row>
-                    <Col xl={4} lg={4} md={4}>
+                    <Col xl={4} lg={4} md={6}>
                         <Card className="my-2">
-                            <Card.Img variant="top" src="https://sifatmoonjerin.netlify.app/static/media/red-onion-cover.6d5a8c2f.png" alt="img" />
+                            <Card.Img variant="top" src={project1} alt="img" />
                             <Card.Body className="text-center">
                             <Card.Title>Red Orion Project</Card.Title>
                             <Card.Text>
@@ -22,9 +31,9 @@ const Projects = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col xl={4} lg={4} md={4}>
+                    <Col xl={4} lg={4} md={6}>
                     <Card className="my-2">
-                            <Card.Img variant="top" src="https://sifatmoonjerin.netlify.app/static/media/red-onion-cover.6d5a8c2f.png" alt="img" />
+                            <Card.Img variant="top" src={project2}  alt="img" />
                             <Card.Body className="text-center">
                             <Card.Title>Red Orion Project</Card.Title>
                             <Card.Text>
@@ -37,9 +46,9 @@ const Projects = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col xl={4} lg={4} md={4}>
+                    <Col xl={4} lg={4} md={6}>
                     <Card className="my-2">
-                            <Card.Img variant="top" src="https://sifatmoonjerin.netlify.app/static/media/red-onion-cover.6d5a8c2f.png" alt="img" />
+                            <Card.Img variant="top" src={project3}  alt="img" />
                             <Card.Body className="text-center">
                             <Card.Title>Red Orion Project</Card.Title>
                             <Card.Text>
@@ -52,9 +61,9 @@ const Projects = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col xl={4} lg={4} md={4}>
+                    <Col xl={4} lg={4} md={6}>
                     <Card className="my-2">
-                            <Card.Img variant="top" src="https://sifatmoonjerin.netlify.app/static/media/red-onion-cover.6d5a8c2f.png" alt="img" />
+                            <Card.Img variant="top" src={project4}  alt="img" />
                             <Card.Body className="text-center">
                             <Card.Title>Red Orion Project</Card.Title>
                             <Card.Text>
@@ -69,6 +78,7 @@ const Projects = () => {
                     </Col>
                 </Row>
             </Container>
+        </div>
         </>
     );
 };

@@ -10,9 +10,7 @@ const Homepage = () => {
         <div>
             <NavMenu/>
             <Home/>
-            <Projects/>
-            <Blogs/>
-            <About/>
+            
         </div>
     );
 };

@@ -3,3 +3,9 @@
 @import  './home.css';
 @import './projects';
 @import './about.css';
+@import './resume.css';
+@import './contact.css';
+
+.font{
+    font-family: 'Roboto Condensed', sans-serif;
+}

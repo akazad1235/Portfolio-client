@@ -9,3 +9,7 @@
 .resume-button:hover{
     color:white
 }
+.navbar-expand-lg .navbar-nav {
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
