@@ -44,7 +44,7 @@ const Contact = () => {
                              </div> 
                              <div className="form-group">
                                   <label for="pass"></label>
-                                 <input type="submit" className=" btn btn-success"/>
+                                 <input type="submit" className=" btn btn-danger"/>
                                </div>
                          </form>
                             </div>

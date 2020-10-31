@@ -18,7 +18,7 @@ const About = () => {
                         <p className="font">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React JS.</p>
                         <div className="my-2">
                             <Button variant="danger" className="btn btn-danger m-1"><Link to="/contact" className="font text-white hire-me">Hire Me</Link></Button>
-                            <Button variant="danger" href="https://drive.google.com/drive/folders/1gS0R0uv6tl7Ajdi9VkH7GPw3h2QVtJmk" target="_blank" className="btn btn-danger m-1 hire-me" >Download My Resume</Button>   
+                            <Button variant="danger" href="https://drive.google.com/file/d/1HQRtKI9I-K-Uvuvu-qqAgsveTNEqP7rt/view?usp=sharing" target="_blank" className="btn btn-danger m-1 hire-me" >Download My Resume</Button>   
                         </div>
                     </Col>
                     <Col xl={6} lx={6} md={6} xm={12} sm={12}>

@@ -28,7 +28,7 @@ const Home = () => {
                         <a href="https://web.facebook.com/akazad151/" className="m-3  social-icon" target="_blank"><i class="fab fa-facebook"></i></a>
                         </div>
                         <Button variant="danger" className="btn btn-danger m-1"><Link to="/contact" className="font text-white hire-me">Hire Me</Link></Button>
-                        <Button variant="danger" href="https://drive.google.com/drive/folders/1gS0R0uv6tl7Ajdi9VkH7GPw3h2QVtJmk" target="_blank" className="btn btn-danger m-1 hire-me" >Download My Resume</Button>   
+                        <Button variant="danger" href="https://drive.google.com/file/d/1HQRtKI9I-K-Uvuvu-qqAgsveTNEqP7rt/view?usp=sharing" target="_blank" className="btn btn-danger m-1 hire-me" >Download My Resume</Button>   
                     </Col>
                 </Row>
             </Container>
